@@ -1,0 +1,68 @@
+
+.screen-start{
+    width: 100vh;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-word{
+    font-size: 80px;
+    color: red;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Noto Serif', serif;
+}
+
+@keyframes screen-ani{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.screen-word{
+    opacity: 0;
+    animation: screen-ani 3s linear forwards;
+}
+
+.screen-word:nth-child(2){
+    animation-delay: 0.3s;
+}
+
+.screen-word:nth-child(3){
+    animation-delay: 0.6s;
+}
+
+.screen-word:nth-child(4){
+    animation-delay: 0.9s;
+}
+
+.screen-word:nth-child(5){
+    animation-delay: 1.2s;
+}
+
+.screen-word:nth-child(6){
+    animation-delay: 1.5s;
+}
+
+.screen-word:nth-child(7){
+   animation-delay: 1.8s;
+}
+
+@keyframes screen-none{
+  from{
+  }
+  to{display: none;}
+}
+
+.screen-start{
+    animation: screen-none 4s linear forwards;
+}
+
+
+
