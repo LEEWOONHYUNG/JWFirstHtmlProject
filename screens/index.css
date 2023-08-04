@@ -1,5 +1,8 @@
 
+
 .screen-start{
+    position: absolute;
+    top: 0;
     width: 100vh;
     height: 100vh;
     background-color: black;
@@ -63,6 +66,26 @@
 .screen-start{
     animation: screen-none 4s linear forwards;
 }
+
+.main{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 167, 167, 0.87);
+}
+
+
+.main video{
+    width: 300px;
+    height: 500px;
+}
+
+
+
+
+
 
 
 
