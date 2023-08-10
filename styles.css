@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital@1&display=swap');
 
 
+/* components */
+@import "components/nav-bar.css";
+
+
 /* screens */
 @import "screens/index.css";
+@import "screens/info.css";
 
 
 
